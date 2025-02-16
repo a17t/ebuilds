@@ -1,12 +1,3 @@
-diff --git a/usr/share/applications/insync.desktop b/usr/share/applications/insync.desktop
-index a328b53..0664ebe 100644
---- a/usr/share/applications/insync.desktop
-+++ b/usr/share/applications/insync.desktop
-@@ -6,6 +6,6 @@ GenericName=Insync
- Comment=Launch Insync
- Icon=insync
- Categories=Network;
--Exec=insync start
-+Exec=insync start --ca-path=/etc/ssl/certs
- TryExec=insync
- Terminal=false
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f807a77862221b510d79a12fac916df3219dedecc41cabb2393534a8ae0c663
+size 396

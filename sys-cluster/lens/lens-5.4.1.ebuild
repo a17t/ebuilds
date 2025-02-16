@@ -1,10 +1,3 @@
-EAPI=7
-inherit rpm
-SLOT="0"
-SRC_URI="https://api.k8slens.dev/binaries/Lens-5.4.1-latest.20220304.1.x86_64.rpm"
-
-
-S="${WORKDIR}"
-src_install() {
-   cp -R "${S}/"* "${D}/" || die "Install failed!"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a61f7993e3c3c888a98e15e709165e5aa654defed5b6528cda26177b579871d9
+size 197

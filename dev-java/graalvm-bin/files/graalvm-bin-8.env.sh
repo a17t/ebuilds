@@ -1,19 +1,3 @@
-# Copyright 1999-2020 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
-VERSION="GraalVM ${PV}"
-JAVA_HOME="${EPREFIX}/opt/${P}"
-JDK_HOME="${EPREFIX}/opt/${P}"
-JAVAC="\${JAVA_HOME}/bin/javac"
-PATH="\${JAVA_HOME}/bin"
-ROOTPATH="\${JAVA_HOME}/bin"
-LDPATH="\${JAVA_HOME}/lib/:\${JAVA_HOME}/lib/server/"
-MANPATH=""
-PROVIDES_TYPE="JDK JRE"
-PROVIDES_VERSION="${SLOT}"
-BOOTCLASSPATH=""
-GENERATION="2"
-ENV_VARS="JAVA_HOME JDK_HOME JAVAC PATH ROOTPATH LDPATH MANPATH"
-
- 
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b2521b8eff9776a98a8be33376cad1a6abec5b408c52ebf9ea98186f7e1a634
+size 495

@@ -1,8 +1,3 @@
-diff --git a/insync-3.0.27/usr/bin/insync b/insync-3.0.27/usr/bin/insync
-index a738ec8..b8f0304 100755
---- a/usr/bin/insync
-+++ b/usr/bin/insync
-@@ -1,3 +1,3 @@
- #!/bin/bash
--LC_TIME=C exec /usr/lib/insync/insync "$@"
-+LC_TIME=C exec /usr/lib64/insync/insync "$@"
+version https://git-lfs.github.com/spec/v1
+oid sha256:8345b873c190867527450e62de69169d7e0049a207f43c9273379408c53ad7c1
+size 264

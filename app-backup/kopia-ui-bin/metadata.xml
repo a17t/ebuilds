@@ -1,11 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<!-- maintainer-needed -->
-	<upstream>
-		<remote-id type="github">kopia/kopia</remote-id>
-	</upstream>
-	<use>
-		<flag name="system-kopia">Use the system-wide <pkg>app-backup/kopia</pkg> instead of bundled.</flag>
-	</use>
-</pkgmetadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:605b37f4088ce221eb263feff040665a0157526e4b53f22eff03e68295542fbd
+size 362

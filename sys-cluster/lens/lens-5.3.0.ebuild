@@ -1,10 +1,3 @@
-EAPI=7
-inherit rpm
-SLOT="0"
-SRC_URI="https://lens-binaries.s3-eu-west-1.amazonaws.com/ide/Lens-5.3.0-latest.20211125.2.x86_64.rpm"
-
-
-S="${WORKDIR}"
-src_install() {
-   cp -R "${S}/"* "${D}/" || die "Install failed!"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a74af0f1413f73803fe643042938bba254b224ce79819be35fefd6137fe0f0dd
+size 217

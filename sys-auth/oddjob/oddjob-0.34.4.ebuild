@@ -1,19 +1,3 @@
-# Copyright 1999-2018 Gentoo Foundation
-# Distributed under the terms of the GNU General Public License v2
-EAPI=6
-
-inherit rpm
-
-DESCRIPTION="A classical example to use when starting on something new"
-HOMEPAGE="http://google.com"
-SRC_URI="https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/o/oddjob-0.34.4-5.fc29.src.rpm"
-
-LICENSE="UNKNOWN"
-SLOT="0"
-KEYWORDS="~amd64 ~x86"
-
-src_unpack () {
-	rpm_src_unpack ${A}
-	cd "${S}"
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:34a7458d5aa71cb1e9d1bf70f104885dc6ad2e0d35f1d431880e44c1c0663939
+size 477
